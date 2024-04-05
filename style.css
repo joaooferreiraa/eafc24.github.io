@@ -72,20 +72,25 @@ body {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
-
+.estudante-todos2{
+    display: grid;
+    grid-template-columns: 33.5% 33% 33.5%;
+}
 .rodape{
     background-color: black;
     text-align: center;
+    color: white;   
+    padding: 0 0 25px 0;
 }
 
 .rodape-imagem{
     height: 60px;
-    padding: 12px 0;
-   
+    padding: 5px 0 5px 1200px;
+    
 }
 
 .estudante-imagem1{
-width: 77%;
+width: 85%;
 }
 
 .estudante-imagem{
@@ -93,5 +98,9 @@ width: 77%;
     }
 
 .estudante-imagem2{
-    width: 108%;
+    width: 100%;
+    }
+
+    .estudante-imagem5{
+        width: 55%;
     }
